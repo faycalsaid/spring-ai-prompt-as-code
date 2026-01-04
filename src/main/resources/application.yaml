@@ -1,0 +1,12 @@
+prompt:
+  file:
+    path: classpath:static/meal-generation-prompt-configuration.json
+
+spring:
+  application:
+    name: spring-ai-prompt-as-code
+
+vertex-ai:
+  location: europe-west1
+  project-id:  project-id
+  model-id: gemini-2.5-flash
